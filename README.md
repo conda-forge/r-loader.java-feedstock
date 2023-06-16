@@ -1,11 +1,11 @@
-About r-loader.java
-===================
+About r-loader.java-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-loader.java-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SantanderMetGroup/loadeR.java
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-loader.java-feedstock/blob/main/LICENSE.txt)
 
 Summary: Initializes the Unidata's NetCDF Java Library that implements the full CDM model, including all other .jar dependencies.
 

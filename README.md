@@ -144,5 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@cofinoa](https://github.com/cofinoa/)
-* [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
+* [@mor427unican](https://github.com/mor427unican/)
 

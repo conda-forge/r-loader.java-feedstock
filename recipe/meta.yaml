@@ -1,4 +1,4 @@
-{% set version = '1.2.0' %}
+{% set version = "1.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/loadeR.java/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 545e30e6077c9288f692dbbc41090ee7f33be7953dc003a81d2a77b0e52e72e5
+  sha256: d427658f6584e7fe4f5c72d52c9b31d53ce80470e03d5e4978f2da5cb182e438
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,8 +37,7 @@ test:
 about:
   home: https://github.com/SantanderMetGroup/loadeR.java
   license: GPL-3.0-or-later
-  summary: Initializes the Unidata's NetCDF Java Library that implements the full CDM model,
-    including all other .jar dependencies.
+  summary: Initializes the Unidata's NetCDF Java Library that implements the full CDM model, including all other .jar dependencies.
   license_family: GPL3
   license_file:
     - LICENSE
@@ -48,7 +47,7 @@ extra:
     - conda-forge/r
     - cofinoa
     - mor427unican
-    
+
 
 # Package: loadeR.java
 # Depends: rJava, R(>= 3.1.0)

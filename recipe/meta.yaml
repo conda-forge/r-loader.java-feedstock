@@ -25,11 +25,11 @@ requirements:
   host:
     - r-base
     - r-rjava
-    - netcdf-java >=5
+    - netcdf-java
   run:
     - r-base
     - r-rjava
-    - netcdf-java >=5
+    - netcdf-java
 
 test:
   commands:

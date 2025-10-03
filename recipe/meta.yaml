@@ -10,7 +10,7 @@ source:
   sha256: d427658f6584e7fe4f5c72d52c9b31d53ce80470e03d5e4978f2da5cb182e438
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -25,9 +25,11 @@ requirements:
   host:
     - r-base
     - r-rjava
+    - netcdf-java
   run:
     - r-base
     - r-rjava
+    - netcdf-java
 
 test:
   commands:

@@ -12,6 +12,7 @@ source:
 build:
   number: 3
   noarch: generic
+  string: "r36h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}"
   rpaths:
     - lib/R/lib/
     - lib/

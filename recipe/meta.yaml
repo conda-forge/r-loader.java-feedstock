@@ -21,13 +21,13 @@ requirements:
     - {{ posix }}filesystem        # [win]
     - {{ posix }}git
     - {{ posix }}zip               # [win]
-    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+
   host:
-    - r-base
+    - r-base 3.6.* 
     - r-rjava
     - netcdf-java
   run:
-    - r-base
+    - r-base >=3.6,<4.0.0a0
     - r-rjava
     - netcdf-java
 

@@ -10,8 +10,9 @@ source:
   sha256: d427658f6584e7fe4f5c72d52c9b31d53ce80470e03d5e4978f2da5cb182e438
 
 build:
-  number: 2
+  number: 3
   noarch: generic
+  string: "r36h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}"
   rpaths:
     - lib/R/lib/
     - lib/
@@ -21,13 +22,13 @@ requirements:
     - {{ posix }}filesystem        # [win]
     - {{ posix }}git
     - {{ posix }}zip               # [win]
-    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+
   host:
-    - r-base
+    - r-base 3.6.* 
     - r-rjava
     - netcdf-java
   run:
-    - r-base
+    - r-base >=3.6,<4.0.0a0
     - r-rjava
     - netcdf-java
 

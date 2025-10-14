@@ -7,12 +7,11 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/loadeR.java/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d427658f6584e7fe4f5c72d52c9b31d53ce80470e03d5e4978f2da5cb182e438
+  sha256: 2df0943d82505c85c6ea8c9e8bbe8e00617992f6710839456d42f1f59f0a8afd
 
 build:
-  number: 3
+  number: 4
   noarch: generic
-  string: "r36h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}"
   rpaths:
     - lib/R/lib/
     - lib/

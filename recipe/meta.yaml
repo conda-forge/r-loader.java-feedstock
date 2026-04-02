@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/loadeR.java/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 2df0943d82505c85c6ea8c9e8bbe8e00617992f6710839456d42f1f59f0a8afd
+  sha256: 9931f10099b2ba0951e67dd2d77e54675e344145ce9506f72198db29dbf848a5
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -48,7 +48,7 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - cofinoa
-    - mor427unican
+    - mariadlor
 
 
 # Package: loadeR.java
